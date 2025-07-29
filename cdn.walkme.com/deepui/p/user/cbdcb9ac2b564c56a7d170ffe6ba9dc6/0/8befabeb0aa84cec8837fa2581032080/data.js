@@ -1,0 +1,9 @@
+(function(a) {
+            if(a && typeof a['wm-deepui-um-cb'] !== 'undefined'){
+                var obj = {};
+                obj.getData = function() { return {"executeOnFindElementFailure":true,"quotaTimeParams":{"period":20000,"deepUiTimeQuota":18000},"feRunQuotaParams":{"period":2000,"timeQuota":1000,"longDurationTime":400,"aggregateDataTimeIntervalSec":60},"checkPhrasesThreshold":0.1,"useHarvesterThreshold":0.01,"minCheckPhrasesInterval":5000,"reportResultsInterval":2000,"reportResultsBufferThreshold":1,"reportResultsCachePeriod":0,"sendEndUserDataWithResults":true,"mapCaptureIdAndJqueryToInt":{"0 0":0,"0 1":1,"1 0":2,"1 1":1},"playerReportResultsThreshold":0,"blackList":[],"useDeepUiExecution":true,"ignoreIframe":false,"feCacheResultParams":{"period":1600,"cleanCachedElementsInterval":10000},"feCacheResultEnabled":true,"reportResultsThreshold":1,"whiteList":[],"regexPatterns":[],"filterTemplates":[],"encryptedAttributes":[],"platforms":[],"inProgress":false,"lastUpdatedAt":null,"salt":"yduibbup","bFParams":{},"prebuilt":true,"prebuiltLanguages":null,"automaton4":true,"cacheCssOnS3":{"enabled":true},"earlyCapture":true,"encryptedDom":true,"expectedHash":true,"quickAutomaton":true,"asyncTaskHandler":{"analyzeAutomatonResult":true},"prebuildExtension":"js","useCombinedCapture":true,"prebuildUserMapping":true,"superEnhancedStyles":true,"useWorkerPerRequest":true,"enableDummyLanguages":true,"minimalMappingForEditor":true,"automatonPerformanceTracking":true,"refreshUserMappingEvery30Minutes":true,"analyzeAutomatonResultProbabilityPerAutomaton":true,"deployableTransitionIds":[],"transitionIdentifiers":[],"elements":{},"timestamp":1753715221294,"trackersData":[]} };
+                
+                
+                a['wm-deepui-um-cb'](obj);
+            }
+        })(window && window._walkmeInternals);
